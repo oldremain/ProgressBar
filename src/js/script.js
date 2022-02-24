@@ -23,7 +23,6 @@ let timer = setTimeout(function increaseLeft() {
   if (computedLeft > 0) {
     $progressExecution.innerHTML = 'Completed &#127881';
     clearTimeout(newTimer);
-    clearTimeout(timer);
     console.log('timer is cleaned');
   }
 }, 1500);
